@@ -2,10 +2,11 @@
     <Source>
         <Name>font-firacode-otf</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua.strobl@outlook.com</Email>
+            <Name>Matt Critchlow</Name>
+            <Email>matt.critchlow@gmail.com</Email>
         </Packager>
         <License>OFL-1.1</License>
+        <PartOf>desktop.font</PartOf>
         <Summary xml:lang="en">Fira Code is a monospaced font with programming ligatures</Summary>
         <Description xml:lang="en">Fira Code is a monospaced font with programming ligatures
 </Description>
@@ -18,16 +19,20 @@
 </Description>
         <PartOf>desktop.font</PartOf>
         <Files>
-            <Path fileType="data">/usr/share/fonts</Path>
+            <Path fileType="data">/usr/share/fonts/firacode/FiraCode-Bold.otf</Path>
+            <Path fileType="data">/usr/share/fonts/firacode/FiraCode-Light.otf</Path>
+            <Path fileType="data">/usr/share/fonts/firacode/FiraCode-Medium.otf</Path>
+            <Path fileType="data">/usr/share/fonts/firacode/FiraCode-Regular.otf</Path>
+            <Path fileType="data">/usr/share/fonts/firacode/FiraCode-Retina.otf</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2016-02-01</Date>
-            <Version>1.102</Version>
+        <Update release="2">
+            <Date>2017-08-14</Date>
+            <Version>1.204</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua.strobl@outlook.com</Email>
+            <Name>Matt Critchlow</Name>
+            <Email>matt.critchlow@gmail.com</Email>
         </Update>
     </History>
 </PISI>
